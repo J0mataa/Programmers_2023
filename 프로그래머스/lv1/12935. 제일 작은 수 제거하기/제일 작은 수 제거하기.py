@@ -1,5 +1,7 @@
 def solution(arr): #arr은 배열
+
     
+#본인풀이
     small = arr[0] #가장 작은값 저장용
     ans = []
     
@@ -26,6 +28,11 @@ def solution(arr): #arr은 배열
     else:
         return ans
 
+    
+    
+#min과 remove사용 (현재 적용 불가 --> -1처리가 없음)
+    arr.remove(min(arr))
+    return arr
         
         
 
